@@ -44,7 +44,7 @@ function App() {
       </div>
 
       {/* Supporting value statement. */}
-      <p className="Preparing future-ready software engineers">
+      <p className="tagline">
         Nelson Mandela University | 14-17 September 2026 | Online 
       </p>
 
