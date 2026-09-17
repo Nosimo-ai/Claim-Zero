@@ -1,0 +1,17 @@
+node_modules/
+dist/
+
+# Terraform generated files and local state
+Terraform/.terraform/
+Terraform/*.tfstate
+Terraform/*.tfstate.*
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
