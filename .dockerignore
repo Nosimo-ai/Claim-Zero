@@ -1,0 +1,12 @@
+node_modules
+dist
+.git
+.gitignore
+Terraform
+*.tfstate
+*.tfstate.*
+.env
+.env.*
+README.md
+CLAIM_ZERO4_Day *.md
+gitignore.txt
