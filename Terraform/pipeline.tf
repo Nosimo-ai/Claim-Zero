@@ -178,7 +178,8 @@ resource "aws_codebuild_project" "claim" {
   }
 
   source {
-    type = "CODEPIPELINE"
+    type      = "CODEPIPELINE"
+    buildspec = "buildspec.yml"
   }
 
   logs_config {
